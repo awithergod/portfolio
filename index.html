@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aahil Baig | Software Engineer & AI Builder</title>
+  <meta name="description" content="17 year old developer from Karachi building AI systems and tools that solve real problems." />
+  <meta property="og:title" content="Aahil Baig | Software Engineer & AI Builder" />
+  <meta property="og:description" content="17 year old developer from Karachi building AI systems and tools that solve real problems." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#060608" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23060608'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='32' font-weight='bold' fill='%236ea8ff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ LOADING SCREEN ============ -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <div class="loading-logo">AB</div>
+      <div class="loading-text">
+        <span>Initializing</span>
+        <span class="loading-dots">
+          <span>.</span><span>.</span><span>.</span>
+        </span>
+      </div>
+      <div class="loading-bar">
+        <div class="loading-progress" id="loadingProgress"></div>
+      </div>
+      <div class="loading-percentage" id="loadingPercentage">0%</div>
+    </div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">A<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#projects">Projects</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="metal-human.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker reveal">Karachi, Pakistan · O Level Student · Head Boy</p>
+      <h1 class="hero-title reveal">
+        <span class="line">I'm Aahil Baig.</span>
+        <span class="line grad">I build things.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        I like building things that solve problems I'd actually have.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#about" class="btn btn-ghost">About me</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="hero-scroll-line"></span>
+      <span class="hero-scroll-text">Scroll</span>
+    </a>
+  </section>
+
+  <main>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label reveal">01 · About Me</p>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h2 class="section-title">If something wastes my time, I'll probably try to build a better version<span class="accent">.</span></h2>
+            <p>
+              I'm a 17 year old developer from Karachi. I've studied at Beacon Askari,
+              then Lions Schooling System, and I'm currently applying to Nixor College.
+              Right now I'm focused on AI systems and developer tools.
+            </p>
+            <p>
+              School gave me opportunities that went beyond classes. As Head Boy I represented
+              students and helped organize events. As Computer Lab Manager I spent more time
+              taking computers apart than I probably should have: fixing Windows boot loops,
+              replacing RAM, cleaning thermal paste, and keeping the lab running.
+            </p>
+            <p>
+              Most of what I know came from YouTube videos, reddit, wiki, breaking things,
+              and spending way too many nights trying to fix them again. Along the way I grew
+              a YouTube channel to over 1,000 subscribers with millions of views and worked
+              professionally as a content creator and video editor.
+            </p>
+            <p>
+              Some projects worked. Some completely failed. I learned something from all of
+              them. Most of my ideas begin with "this should only take a weekend." They rarely do.
+            </p>
+            <blockquote class="philosophy">
+              "It takes a long time to realise how truly miserable you are and even more to see that it doesn't have to
+              be that way. Only after you give up everything can you begin to find a way to be happy."
+            </blockquote>
+          </div>
+          <div class="about-facts reveal">
+            <div class="fact-card">
+              <span class="fact-value">17</span>
+              <span class="fact-label">Years old, born 27 June 2009</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-value">Head Boy</span>
+              <span class="fact-label">Student leader of my school</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-value">1,000+</span>
+              <span class="fact-label">YouTube subscribers, millions of views</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEADERSHIP ============ -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <p class="section-label reveal">02 · Leadership</p>
+        <h2 class="section-title reveal">Real responsibility<span class="accent">.</span></h2>
+        <div class="leadership-grid">
+          <!-- Head Boy -->
+          <div class="leadership-card reveal">
+            <h3>Head Boy</h3>
+            <p>
+              Being Head Boy meant more than just speeches at assemblies. I had to deal with
+              student issues, work with teachers on school events, and basically be the go-to
+              person when things needed organizing. It forced me to get comfortable speaking
+              in front of people, solving problems quickly, and making decisions even when
+              nobody was completely happy with them.
+            </p>
+          </div>
+
+          <!-- Computer Lab Manager -->
+          <div class="leadership-card reveal">
+            <h3>Computer Lab Manager</h3>
+            <p>
+              I spent a lot of time fixing broken school computers. Replaced dead CMOS batteries,
+              reseated RAM when PCs wouldn't boot, cleaned out dust and reapplied thermal paste
+              on overheating systems, and fixed Windows boot loops. Basically, when a computer
+              stopped working, I'd figure out what was wrong and get it running again.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label reveal">03 · Projects</p>
+        <h2 class="section-title reveal">Things I've built<span class="accent">.</span></h2>
+
+        <!-- ExamOS -->
+        <div class="project-featured reveal">
+          <div class="featured-header">
+            <h3>ExamOS</h3>
+            <p class="featured-tagline">Honestly, I built it because I procrastinate. Every productivity app let me ignore it with one click. So I decided to build one that doesn't.</p>
+          </div>
+
+          <div class="featured-content">
+            <p>It's a layer that sits on top of your OS and forces you into study mode. Apps and websites you shouldn't be using get blocked. The only way to unblock them is to earn credits by actually studying.</p>
+
+            <p>The most extreme part is Deep Focus, a lockdown mode you genuinely can't escape. Alt+F4 doesn't work. Task Manager doesn't work. Even if you restart your PC, it resumes Deep Focus. It's for people like me who can't help but open their computer and get glued to it.</p>
+
+            <p>There's also an AI planner that reorganizes your study schedule when you inevitably fall behind, past paper management, a custom OS style UI, analytics tracking, gamification with XP and achievements, and support for different exam boards.</p>
+          </div>
+
+          <div class="tech-stack">
+            <h4>Built with</h4>
+            <div class="chip-row">
+              <span class="chip">React</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Tauri</span>
+              <span class="chip">Rust</span>
+              <span class="chip">NestJS</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Prisma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Projects -->
+        <div class="projects-grid">
+          <!-- Hand Tracker -->
+          <div class="project-card reveal">
+            <h3>Hand Tracker for FPS Games</h3>
+            <p>Built this for a school science fair. Tracks your thumb and index finger. When they touch, it clicks. Move them around and the mouse follows. Originally tracked the whole hand but it was way too slow, so I simplified it.</p>
+            <div class="tech-stack">
+              <span class="chip">Python</span>
+              <span class="chip">MediaPipe</span>
+            </div>
+          </div>
+
+          <!-- Lionsmash -->
+          <div class="project-card reveal">
+            <h3>Lionsmash</h3>
+            <p>A student rating site that used an ELO ranking system. People would rate each other and the rankings would adjust based on who voted. It got weirdly popular. Over 300 people used it before I eventually took it down.</p>
+            <div class="tech-stack">
+              <span class="chip">Full Stack</span>
+              <span class="chip">Database</span>
+            </div>
+          </div>
+
+          <!-- Experiments -->
+          <div class="project-card reveal">
+            <h3>Random Experiments</h3>
+            <p>I have a folder full of half finished ideas. Some became real apps, most didn't, but every project taught me something new about prompt engineering, automation, vision systems, desktop apps, or just how to structure code better.</p>
+            <p>I'm okay with building things that never get finished. Every unfinished project teaches me something the next one needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SHOWCASE ============ -->
+    <section class="section section-dark" id="showcase">
+      <div class="container">
+        <p class="section-label reveal">04 · Video Showcase</p>
+        <h2 class="section-title reveal">Content I've created<span class="accent">.</span></h2>
+
+        <div class="videos-grid">
+          <!-- Comp 1 -->
+          <div class="video-card reveal">
+            <div class="video-wrapper">
+              <!-- Comp 1.mp4 on Google Drive -->
+              <iframe src="https://drive.google.com/file/d/1jXXa_6yTxQ7lWjz4psiRpPve3xQ2WStt/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen title="Motion Graphics Composition"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>Motion Graphics Composition</h3>
+              <p>Design and motion graphics work.</p>
+              <div class="video-stats">
+                <span class="stat">Motion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TASM2 Edit -->
+          <div class="video-card reveal">
+            <div class="video-wrapper">
+              <!-- tasm2_edit.mp4 on Google Drive -->
+              <iframe src="https://drive.google.com/file/d/1q3TRRZsWkwYbXUm9U4T-0t0q2xsD5DuN/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen title="The Amazing Spider-Man 2 Edit"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>The Amazing Spider-Man 2 Edit</h3>
+              <p>Cinematic editing and color grading.</p>
+              <div class="video-stats">
+                <span class="stat">Edit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ford Ferrari -->
+          <div class="video-card reveal">
+            <div class="video-wrapper">
+              <!-- at-7000-rpm.mp4 on Google Drive -->
+              <iframe src="https://drive.google.com/file/d/1P3djCIUvSTZ4Q1Gsr9KSQWpEoOsF1yHg/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen title="At 7,000 RPM"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>At 7,000 RPM</h3>
+              <p>Short form content for YouTube.</p>
+              <div class="video-stats">
+                <span class="stat">Short</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 0713 -->
+          <div class="video-card reveal">
+            <div class="video-wrapper">
+              <!-- 0713.mov on Google Drive -->
+              <iframe src="https://drive.google.com/file/d/16qettrhZKE40LLdCe8CH5kpL-pGW5FUI/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen title="Creative Project 0713"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>Creative Project 0713</h3>
+              <p>Original content production.</p>
+              <div class="video-stats">
+                <span class="stat">Original</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Short Film -->
+          <div class="video-card reveal">
+            <div class="video-wrapper">
+              <!-- Short film on Google Drive -->
+              <iframe src="https://drive.google.com/file/d/1JTnV8ELbrdSXTRh7BWhCJTLbBzsRgKFf/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen title="Short Film - You are dead"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>Short Film - You are dead</h3>
+              <p>Content created using DSLR camera and DaVinci Resolve.</p>
+              <div class="video-stats">
+                <span class="stat">Short Film</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- YouTube links -->
+        <div class="yt-more reveal">
+          <span>More of my shorts on YouTube</span>
+          <a href="https://www.youtube.com/shorts/Z_8QfFlddVo" target="_blank" class="video-link">Watch Short 1</a>
+          <a href="https://www.youtube.com/shorts/TPsLu2h4Jro" target="_blank" class="video-link">Watch Short 2</a>
+        </div>
+
+        <!-- Photography Grid -->
+        <h3 class="section-subtitle reveal">Photography<span class="accent">.</span></h3>
+        <div class="photo-grid reveal">
+          <div class="photo-card">
+            <div class="photo-wrapper">
+              <img src="images/1 (1 of 1).jpg" alt="Photography with Nikon D3200" loading="lazy">
+            </div>
+            <div class="video-info">
+              <p>Shot with Nikon D3200 DSLR.</p>
+              <div class="video-stats">
+                <span class="stat">Photography</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="photo-card">
+            <div class="photo-wrapper">
+              <img src="images/ezbeta (1 of 1).jpg" alt="Photography with Nikon D3200" loading="lazy">
+            </div>
+            <div class="video-info">
+              <p>Shot with Nikon D3200 DSLR.</p>
+              <div class="video-stats">
+                <span class="stat">Photography</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label reveal">05 · Skills</p>
+        <h2 class="section-title reveal">What I work with<span class="accent">.</span></h2>
+
+        <h3 class="section-subtitle reveal">Languages & Frameworks<span class="accent">.</span></h3>
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="chip-row">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Rust (learning)</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Frontend</h4>
+            <div class="chip-row">
+              <span class="chip">React</span>
+              <span class="chip">Vite</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Framer Motion</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Backend & Database</h4>
+            <div class="chip-row">
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">NestJS</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Prisma</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Desktop & Mobile</h4>
+            <div class="chip-row">
+              <span class="chip">Tauri</span>
+              <span class="chip">Android Studio</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle reveal">What I'm Good At<span class="accent">.</span></h3>
+        <div class="skills-grid reveal">
+          <div class="chip-row">
+            <span class="chip">Full Stack Development</span>
+            <span class="chip">UI/UX Design</span>
+            <span class="chip">API Integration</span>
+            <span class="chip">Database Design</span>
+            <span class="chip">Cross Platform Development</span>
+            <span class="chip">Prompt Engineering</span>
+            <span class="chip">Video Editing</span>
+            <span class="chip">Motion Graphics</span>
+            <span class="chip">Photography</span>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle reveal">Tools I Actually Use<span class="accent">.</span></h3>
+        <div class="tools-grid reveal">
+          <div class="tool-category">
+            <h4>Development</h4>
+            <div class="chip-row">
+              <span class="chip">VS Code</span>
+              <span class="chip">Git</span>
+              <span class="chip">Postman</span>
+            </div>
+          </div>
+
+          <div class="tool-category">
+            <h4>Design</h4>
+            <div class="chip-row">
+              <span class="chip">Figma</span>
+              <span class="chip">Photoshop</span>
+              <span class="chip">Illustrator</span>
+            </div>
+          </div>
+
+          <div class="tool-category">
+            <h4>Video</h4>
+            <div class="chip-row">
+              <span class="chip">Premiere Pro</span>
+              <span class="chip">After Effects</span>
+              <span class="chip">DaVinci Resolve</span>
+            </div>
+          </div>
+
+          <div class="tool-category">
+            <h4>Photography</h4>
+            <div class="chip-row">
+              <span class="chip">Nikon D3200</span>
+              <span class="chip">Lightroom</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle reveal">AI<span class="accent">.</span></h3>
+        <div class="ai-tools-grid reveal">
+          <p class="ai-intro">AI has become my favorite tool to build with. And my favourite thing to do is finding a workaround for every paid AI, either hosting it myself or finding a third party way around it, which is kinda exhilarating tbh :D</p>
+          <div class="tool-category">
+            <div class="chip-row">
+              <span class="chip">ChatGPT</span>
+              <span class="chip">Claude</span>
+              <span class="chip">Midjourney</span>
+              <span class="chip">Stable Diffusion</span>
+              <span class="chip">Runway ML</span>
+              <span class="chip">Kling AI</span>
+              <span class="chip">ElevenLabs</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-subtitle reveal">Currently Learning<span class="accent">.</span></h3>
+        <div class="skills-grid reveal">
+          <div class="chip-row">
+            <span class="chip">Rust</span>
+            <span class="chip">Tauri</span>
+            <span class="chip">AI Agents</span>
+            <span class="chip">MCP</span>
+            <span class="chip">Advanced System Design</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <p class="section-label reveal">06 · Experience</p>
+        <h2 class="section-title reveal">What I've done<span class="accent">.</span></h2>
+
+        <div class="experience-grid">
+          <div class="experience-card reveal">
+            <h3>Content Creator & Video Editor <span class="role-badge">Internship</span></h3>
+            <p>I learned editing by making videos after school. I never expected some of the videos to blow up, but a few eventually reached millions of views. That taught me more about storytelling and keeping people's attention than any editing tutorial ever could. Managed the full workflow: research, scripting, voiceovers, editing, thumbnails, publishing. Also pulled multiple sponsorships.</p>
+          </div>
+
+          <div class="experience-card reveal">
+            <h3>AI Content Creator <span class="role-badge">Internship</span></h3>
+            <p>Made content using Kling, Runway, Veo3, and Topaz AI for a Facebook page with 2M+ followers. My videos would regularly hit 1M+ views each. I handled everything from writing the prompts to tuning the models.</p>
+          </div>
+
+          <div class="experience-card reveal">
+            <h3>YouTube</h3>
+            <p>Grew a channel from scratch to over 1,000 subscribers with millions of total views making short form content. Learned audience research, content strategy, and how YouTube's algorithm actually works.</p>
+          </div>
+
+          <div class="experience-card reveal">
+            <h3>Other</h3>
+            <ul class="check-list">
+              <li>Completed the Milo Marathon under the time limit</li>
+              <li>Google AI Essentials Course: 100% <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/1NONEP6IXEBR" target="_blank">certificate</a></li>
+              <li>AI Powered Performance Ads: 80%</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ WHY NIXOR ============ -->
+    <section class="section" id="why-nixor">
+      <div class="container">
+        <p class="section-label reveal">07 · Why Nixor</p>
+        <div class="nixor-content reveal">
+          <h2 class="section-title">What I'm looking for<span class="accent">.</span></h2>
+          <div class="nixor-text">
+            <p>I don't really see software as something I do for school. It's what I spend my free time doing anyway. Whether I'm building an operating system for students, editing videos until 7 a.m., or taking apart broken computers. I enjoy figuring things out :p</p>
+            <p>I'm hoping Nixor gives me an environment where that curiosity keeps growing, and where I can contribute just as much outside the classroom as inside it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <div class="contact-content reveal">
+          <h2 class="section-title">Let's talk<span class="accent">.</span></h2>
+          <p>If you want to discuss projects, opportunities, or just chat about tech and AI, feel free to reach out.</p>
+          <a href="mailto:aahilbaigg@gmail.com" class="btn btn-primary">aahilbaigg@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="year">2026</span> Aahil Baig. Building products that help people learn.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

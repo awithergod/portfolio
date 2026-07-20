@@ -1,0 +1,9 @@
+# Large media served from Google Drive, not needed in the repo
+videos/
+
+# Local scratch files
+prompt.txt
+
+# OS junk
+Thumbs.db
+.DS_Store
